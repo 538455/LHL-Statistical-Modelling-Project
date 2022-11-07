@@ -13,15 +13,15 @@ This project provides myself with the opportunity to combine and practice implem
 
 My process followed the different parts of the assignment.
 
-### Step 1 - Collect all data from CityBikes using its API on bike stations in a city of my choice (Vancouver) and store it into a CSV.
+Step 1 - Collect all data from CityBikes using its API on bike stations in a city of my choice (Vancouver) and store it into a CSV.
 
-### Step 2 -  Collect all Points of Interest(POIs) in a 1000m radius of each bike station from Yelp and Foursquare API and store each into a CSV. I defined POIs as bars, restaurants and police stations. Compare the quality of Yelp and Foursquare's API. My definition of quality was 'which one provides me more accurate data with Step 4'. 
+Step 2 -  Collect all Points of Interest(POIs) in a 1000m radius of each bike station from Yelp and Foursquare API and store each into a CSV. I defined POIs as bars, restaurants and police stations. Compare the quality of Yelp and Foursquare's API. My definition of quality was 'which one provides me more accurate data with Step 4'. 
 
-### Step 3 - Join the Data between the all collected CSV (Key aspects of this step where do while I was doing Step 2). Store data into a SQLite DB.
+Step 3 - Join the Data between the all collected CSV (Key aspects of this step where do while I was doing Step 2). Store data into a SQLite DB.
 
-### Step 4 - Build a regression model that demonstrates a relationship between the number of bikes in a particular location and the characteristics of the POIs in that location. For that step, the 'characteristics of the POI' I decided to go with was the amount of venues surrounding each bike stations. 
+Step 4 - Build a regression model that demonstrates a relationship between the number of bikes in a particular location and the characteristics of the POIs in that location. For that step, the 'characteristics of the POI' I decided to go with was the amount of venues surrounding each bike stations. 
 
-### My initial hypothesis was that, the more restaurants there is around a bike station, the more bikes there will be available at that stat
+My initial hypothesis was that, the more restaurants there is around a bike station, the more bikes there will be available at that station
 
 ## Results
 
